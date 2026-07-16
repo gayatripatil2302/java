@@ -1,5 +1,9 @@
 package com.demo;
 
 public class javaPractice {
+	
+	public static void main(String[]args) {
+		System.out.println("hello world");
+	}
 
 }

@@ -1,6 +1,9 @@
 package inheritance;
 
 public class InheritMain {
+	
+//               SINGLE INHERITANCE 
+	
 //	public static void main (String[]args) {
 //		Student std = new Student();
 //		std.displayStudent();
@@ -8,12 +11,42 @@ public class InheritMain {
 //	}
 //}
 	
-	public static void main(String[]args) {
-		SportsCar sc = new SportsCar();
+	
+//            MULTILEVEL INHERITANCE 
+	
+//	public static void main(String[]args) {
+//		SportsCar sc = new SportsCar();
+//		
+//		sc.speed();
+//		sc.driving();
+//		sc.start();
+//			
+//	}
+	
+//                  HIERARCHICAL INHERITANCE 
+	
+	public static void main(String []args) {
 		
-		sc.speed();
-		sc.driving();
-		sc.start();
-			
+		Dog dogobj = new Dog();
+		dogobj.eat();
+		dogobj.bark();
+		
+		Cat catobj = new Cat();
+		catobj.eat();
+		catobj.meow();
+		
+		Mosquito mos = new  Mosquito();
+		mos.fly();
+		mos.eat();
 	}
+	
+//               MULTIPLE INHERITANCE 
+	
+ 
+	
+	
+	
+	
+	
+	
 }

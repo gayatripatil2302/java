@@ -52,23 +52,49 @@ public class EncapMain {
 	
 //                   BOOK
 	
-	public static void main(String[]args) {
-	Book b1 = new Book();
-	
-	b1.setTitle("chhava");
-	b1.setAuthor("shivaji sawant");
-	b1.setPrice(599);
-	
-	System.out.println("book name:"+b1.getTitle());
-	System.out.println("book author:"+b1.getAuthor());
-	System.out.println("book price:"+b1.getPrice());
-	
-	}
-	
-	
-	
-	
-	
-	
-	
+//	public static void main(String[]args) {
+//	Book b1 = new Book();
+//	
+//	b1.setTitle("chhava");
+//	b1.setAuthor("shivaji sawant");
+//	b1.setPrice(599);
+//	
+//	System.out.println("book name:"+b1.getTitle());
+//	System.out.println("book author:"+b1.getAuthor());
+//	System.out.println("book price:"+b1.getPrice());
+//	
+//	}
+
+
+//                 NEW EMPLOYEE DETAILS 
+
+   public static void main (String[]args) {
+	   EmployeeDetails emp = new EmployeeDetails();
+	   
+	   emp.setName("gayaaa");
+	   emp.setEmpNum(101);
+	   emp.setSalary(25000);
+	   emp.setDep("hr");
+	   
+	   System.out.println("employeee name : "+emp.getName());
+	   System.out.println("emploee number : "+emp.getEmpNum());
+	   System.out.println("employee salary : "+emp.getSalary());
+	   System.out.println("employee department :"+ emp.getDep());
+	   
+	   
+   }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+

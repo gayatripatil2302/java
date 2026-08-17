@@ -11,12 +11,15 @@ public class Overridemain {
 
 //            RUNTIME POLYMORPHISM
 //	
-//	public static void main(String[] args) {
-//		Animal aniobj = new Dog();
-//		aniobj.sound();
-//	}
-//
-	
+	public static void main(String[] args) {
+		Animal aniobj = new Dog();
+		aniobj.sound();
+		
+		aniobj = new Cat();
+		aniobj.sound();
+	}
+
+
 	
 //         OVERRIDE METHOD 
 	
@@ -48,12 +51,5 @@ public class Overridemain {
 //	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 }

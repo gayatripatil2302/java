@@ -32,8 +32,7 @@ public class ScannerTest {
 			}
 				else {
 					System.out.println("sorryy :)");				
-				}				
-					
+				}							
 		}
 		
 		else if (answer.equals("no")){
